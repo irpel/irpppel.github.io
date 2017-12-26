@@ -1,0 +1,394 @@
+ header{
+	background-image: url(../photo/head.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+a{
+    text-decoration: none;	
+}
+p{
+	margin-bottom: 0;
+}
+@font-face{
+	font-family:"Museo Sans Cyrl 900";
+	src:url(../types/Museo.ttf);
+}
+@font-face{
+	font-family: Adobe Text Pro Regular;
+	src:url(../types/adobe.ttf);
+}
+.logo{
+	margin-top: 29px;
+	text-align: center;	
+}
+.title{
+	font-family: "Museo Sans Cyrl 900" ;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	margin-top: 80px;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 32px;
+}
+.button{
+	font-family: "Museo Sans Cyrl 900";
+	color: #131313;
+	font-weight: bold;
+	border: 1px solid #fad040;
+    background-color: #fad040;
+    width: 182px;
+    height: 56px;
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.btnfirst{
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+.but{
+	font-size: 20px;
+	font-family: "Museo Sans Cyrl 900";
+	color: #131313;
+	font-weight: bold;
+}
+.button:hover, .button:focus {
+	background-color: #eebf40;
+	border-color:  #eebf40;
+	color: #131313;
+}
+/*main screen*/
+.main{
+	height: 551px;
+}
+.line{
+	height: 60px;
+	background-color: #282828;
+	position: sticky;
+	z-index: 25;
+	top: 0px; 
+}
+.linetext{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Museo Sans Cyrl 700";
+	font-weight: bold;
+
+}
+.bline{
+	width: 100px;
+	height: 40px;
+	/*height: 39px;*/
+	font-size: 14px;
+	border-radius:6px;
+	padding: 10px 0;
+	margin-top: 10px;	
+}
+.one{
+	position: relative;
+	background-color: #ffffff;
+	height: 491px;
+}
+.photo img{
+	width: 290px;
+	height: 192px;
+	text-align: center;
+	margin-top: 40px;	
+}
+.text{
+	margin-top: 25px;
+	font-size: 22px;
+	font-family: "Museo Sans Cyrl 900";
+	color: #131313;
+	font-weight: bold;
+}
+.describe{
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "Adobe Text Pro Regular";
+	color: #131313;
+}
+.bone{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.greyblock{
+	background-color: #e8eaec;
+}
+.another{
+	position: relative;
+}
+/*footer*/
+footer{
+	background-color: #131313;
+	height: 113px;
+}
+.icon{
+	margin: 20px 0;
+}
+.facebook{
+	margin-left: 7px;
+}
+.insta{
+	margin:0 29px;
+}
+.copy{
+	font-size: 16px;
+	font-family: "Adobe Text Pro Regular";
+	color: #efefef;
+	padding-bottom: 10px;
+}
+/*pop-up*/
+.pop{
+	padding-left: 25px;
+	font-size: 18px;
+	font-family: "Museo Sans Cyrl 900";
+	color: #131313;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 0px;	
+}
+.bpop{
+	margin: 20px 0  25px 25px;
+}
+.popsubs{
+	width: 218px;
+	background-color: #fff;	
+}
+.signup{
+	padding-left: 25px;
+	font-size: 16px;
+	font-family: "Adobe Text Pro Regular";
+	color: #131313;
+	margin-bottom: 5px;
+}
+.form{
+	margin-left: 25px;
+	border:none;
+	border-bottom: 1px solid #131313;
+	width: 200px;
+	font-size: 16px;
+	font-family: "Adobe Text Pro Regular";
+
+}
+.first{
+	margin-bottom: 10px;
+}
+.modal-content{
+	margin-top: 100px;
+	width: 240px;
+	margin-left: 30px;
+}
+.modal-body{
+	padding: 1px 0;
+	width: 240px;
+}
+.btext{
+	margin-bottom: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+.modal-header{
+	padding: 0;
+	border: none;
+}
+.modal-header .close{
+	margin-left: 180px;
+}
+@media(min-width: 992px){
+	.btnfirst{
+	margin-left: 0px;
+	margin-bottom: 50px;
+	margin-top: 0;
+	}
+	header{
+	background-image: url(../photo/head.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 599px;
+}
+	.title{
+	font-family: "Museo Sans Cyrl 900" ;
+	font-size: 33px;
+	color: white;
+	font-weight: bold;
+	margin-top: 177px;
+	text-align: center;
+	margin-bottom: 0;
+	}
+	.button{
+	margin-top:50px;
+	padding: 13px 50px;
+	width: 200px;
+	height: 58px;
+	font-size: 20px;
+	font-family: "Museo Sans Cyrl 900";
+	color: #131313;
+	font-weight: bold;
+	border: 1px solid #fad040;
+    border-radius: 10px;
+    background-color: #fad040;
+	}
+	.but{
+		font-size: 20px;
+		font-family: "Museo Sans Cyrl 900";
+		color: #131313;
+		font-weight: bold;
+	}
+	.button:hover, .button:focus {
+		background-color: #eebf40;
+		border-color:  #eebf40;
+		color: #131313;
+	}
+	/*main screen*/
+	.main{
+	height: 491px;
+	}
+	.line{
+	height: 95px;
+	background-color: #282828;
+	position: sticky;
+	z-index: 25;
+	top: 0px; 
+	}
+	.linetext{
+		margin-top: 29px;
+		color: #fff;
+		font-size: 30px;
+		font-family: "Museo Sans Cyrl 900";
+		font-weight: bold;
+
+	}
+	.bline{
+		margin-top: 18px;
+		margin-left: 35px;
+	}
+	.one{
+		position: relative;
+		background-color: #ffffff;
+		height: 491px;
+	}
+	.photo{
+		margin: 90px 0;
+		width: 470px;
+		height: 312px;
+	}
+	.photo img{
+		margin-top: 0;
+	}
+	.text{
+		margin: 87px 0 25px 100px;
+		font-size: 30px;
+		font-family: "Museo Sans Cyrl 900";
+		color: #131313;
+		font-weight: bold;
+	}
+	.describe{
+		font-size: 24px;
+		font-family: "Adobe Text Pro Regular";
+		color: #131313;
+		margin-left: 100px;
+	}
+	.bone{
+		margin-left: 100px;
+		margin-top: 34px;
+	}
+	.greyblock{
+		background-color: #e8eaec;
+	}
+	.another{
+		position: relative;
+	}
+	/*footer*/
+	footer{
+		background-color: #131313;
+		height: 201px;
+	}
+	.icon{
+		margin: 60px 0;
+	}
+	.facebook{
+		margin-left: 7px;
+	}
+	.insta{
+		margin:0 29px;
+	}
+	.copy{
+		font-size: 16px;
+		font-family: "Adobe Text Pro Regular";
+		color: #efefef;
+		text-align: right;
+		padding-bottom: 19px;
+	}
+	/*pop-up*/
+
+	.pop{
+		padding-left: 50px;
+		font-size: 30px;
+		font-family: "Museo Sans Cyrl 900";
+		color: #131313;
+		font-weight: bold;
+		margin-bottom: 30px;
+		margin-top: 10px;	
+	}
+	.bpop{
+		margin: 40px 0  50px 50px;
+	}
+	.popsubs{
+		width: 480px;
+		background-color: #fff;	
+	}
+	.signup{
+		padding-left: 50px;
+		font-size: 24px;
+		font-family: "Adobe Text Pro Regular";
+		color: #131313;
+		margin-bottom: 40px;
+	}
+	.form{
+		margin-left: 50px;
+		border:none;
+		border-bottom: 2px solid #131313;
+		width: 382px;
+		font-size: 24px;
+		font-family: "Adobe Text Pro Regular";
+
+	}
+	.first{
+		margin-bottom: 30px;
+	}
+	.modal-content{
+		width: 482px;
+		margin-top: 168px;
+		margin-left: 0;
+	}
+	.modal-body{
+		padding: 1px 0;
+		width: 480px;
+	}
+	.btext{
+		margin-bottom: 0;
+	}
+
+	input:focus {
+	    outline: 0;}
+	    .bln{
+	    	width: 201px;
+	    }
+
+	.photo img{
+		width: 470px;
+		height: 312px;
+	}
+	.modal-header .close{
+	margin-left: 420px;
+	}
+}
+
+
+
+
